@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E5BF97EC2DCE5B0E00AAC54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BF97CE2DCE5B0B00AAC54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BF97D52DCE5B0B00AAC54C;
+			remoteInfo = "Tinh Lai Cam Do";
+		};
+		E5BF97F62DCE5B0E00AAC54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BF97CE2DCE5B0B00AAC54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BF97D52DCE5B0B00AAC54C;
+			remoteInfo = "Tinh Lai Cam Do";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5BF97D62DCE5B0B00AAC54C /* Tinh Lai Cam Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinh Lai Cam Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BF97EB2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinh Lai Cam DoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BF97F52DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinh Lai Cam DoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E5BF97D82DCE5B0B00AAC54C /* Tinh Lai Cam Do */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tinh Lai Cam Do";
+			sourceTree = "<group>";
+		};
+		E5BF97EE2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tinh Lai Cam DoTests";
+			sourceTree = "<group>";
+		};
+		E5BF97F82DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tinh Lai Cam DoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5BF97D32DCE5B0B00AAC54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BF97E82DCE5B0E00AAC54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BF97F22DCE5B0E00AAC54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5BF97CD2DCE5B0B00AAC54C = {
+			isa = PBXGroup;
+			children = (
+				E5BF97D82DCE5B0B00AAC54C /* Tinh Lai Cam Do */,
+				E5BF97EE2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests */,
+				E5BF97F82DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests */,
+				E5BF97D72DCE5B0B00AAC54C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5BF97D72DCE5B0B00AAC54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5BF97D62DCE5B0B00AAC54C /* Tinh Lai Cam Do.app */,
+				E5BF97EB2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests.xctest */,
+				E5BF97F52DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5BF97D52DCE5B0B00AAC54C /* Tinh Lai Cam Do */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BF97FF2DCE5B0E00AAC54C /* Build configuration list for PBXNativeTarget "Tinh Lai Cam Do" */;
+			buildPhases = (
+				E5BF97D22DCE5B0B00AAC54C /* Sources */,
+				E5BF97D32DCE5B0B00AAC54C /* Frameworks */,
+				E5BF97D42DCE5B0B00AAC54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E5BF97D82DCE5B0B00AAC54C /* Tinh Lai Cam Do */,
+			);
+			name = "Tinh Lai Cam Do";
+			packageProductDependencies = (
+			);
+			productName = "Tinh Lai Cam Do";
+			productReference = E5BF97D62DCE5B0B00AAC54C /* Tinh Lai Cam Do.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5BF97EA2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BF98022DCE5B0E00AAC54C /* Build configuration list for PBXNativeTarget "Tinh Lai Cam DoTests" */;
+			buildPhases = (
+				E5BF97E72DCE5B0E00AAC54C /* Sources */,
+				E5BF97E82DCE5B0E00AAC54C /* Frameworks */,
+				E5BF97E92DCE5B0E00AAC54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BF97ED2DCE5B0E00AAC54C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E5BF97EE2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests */,
+			);
+			name = "Tinh Lai Cam DoTests";
+			packageProductDependencies = (
+			);
+			productName = "Tinh Lai Cam DoTests";
+			productReference = E5BF97EB2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5BF97F42DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BF98052DCE5B0E00AAC54C /* Build configuration list for PBXNativeTarget "Tinh Lai Cam DoUITests" */;
+			buildPhases = (
+				E5BF97F12DCE5B0E00AAC54C /* Sources */,
+				E5BF97F22DCE5B0E00AAC54C /* Frameworks */,
+				E5BF97F32DCE5B0E00AAC54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BF97F72DCE5B0E00AAC54C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E5BF97F82DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests */,
+			);
+			name = "Tinh Lai Cam DoUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tinh Lai Cam DoUITests";
+			productReference = E5BF97F52DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5BF97CE2DCE5B0B00AAC54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E5BF97D52DCE5B0B00AAC54C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E5BF97EA2DCE5B0E00AAC54C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E5BF97D52DCE5B0B00AAC54C;
+					};
+					E5BF97F42DCE5B0E00AAC54C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E5BF97D52DCE5B0B00AAC54C;
+					};
+				};
+			};
+			buildConfigurationList = E5BF97D12DCE5B0B00AAC54C /* Build configuration list for PBXProject "Tinh Lai Cam Do" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5BF97CD2DCE5B0B00AAC54C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E5BF97D72DCE5B0B00AAC54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5BF97D52DCE5B0B00AAC54C /* Tinh Lai Cam Do */,
+				E5BF97EA2DCE5B0E00AAC54C /* Tinh Lai Cam DoTests */,
+				E5BF97F42DCE5B0E00AAC54C /* Tinh Lai Cam DoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5BF97D42DCE5B0B00AAC54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BF97E92DCE5B0E00AAC54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BF97F32DCE5B0E00AAC54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5BF97D22DCE5B0B00AAC54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BF97E72DCE5B0E00AAC54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BF97F12DCE5B0E00AAC54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5BF97ED2DCE5B0E00AAC54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BF97D52DCE5B0B00AAC54C /* Tinh Lai Cam Do */;
+			targetProxy = E5BF97EC2DCE5B0E00AAC54C /* PBXContainerItemProxy */;
+		};
+		E5BF97F72DCE5B0E00AAC54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BF97D52DCE5B0B00AAC54C /* Tinh Lai Cam Do */;
+			targetProxy = E5BF97F62DCE5B0E00AAC54C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5BF97FD2DCE5B0E00AAC54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5BF97FE2DCE5B0E00AAC54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5BF98002DCE5B0E00AAC54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tinh Lai Cam Do/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FSYX2QT8A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Tinh-Lai-Cam-Do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5BF98012DCE5B0E00AAC54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tinh Lai Cam Do/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FSYX2QT8A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Tinh-Lai-Cam-Do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5BF98032DCE5B0E00AAC54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FSYX2QT8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Tinh-Lai-Cam-DoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tinh Lai Cam Do.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tinh Lai Cam Do";
+			};
+			name = Debug;
+		};
+		E5BF98042DCE5B0E00AAC54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FSYX2QT8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Tinh-Lai-Cam-DoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tinh Lai Cam Do.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tinh Lai Cam Do";
+			};
+			name = Release;
+		};
+		E5BF98062DCE5B0E00AAC54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FSYX2QT8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Tinh-Lai-Cam-DoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tinh Lai Cam Do";
+			};
+			name = Debug;
+		};
+		E5BF98072DCE5B0E00AAC54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FSYX2QT8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Tinh-Lai-Cam-DoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tinh Lai Cam Do";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5BF97D12DCE5B0B00AAC54C /* Build configuration list for PBXProject "Tinh Lai Cam Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BF97FD2DCE5B0E00AAC54C /* Debug */,
+				E5BF97FE2DCE5B0E00AAC54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BF97FF2DCE5B0E00AAC54C /* Build configuration list for PBXNativeTarget "Tinh Lai Cam Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BF98002DCE5B0E00AAC54C /* Debug */,
+				E5BF98012DCE5B0E00AAC54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BF98022DCE5B0E00AAC54C /* Build configuration list for PBXNativeTarget "Tinh Lai Cam DoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BF98032DCE5B0E00AAC54C /* Debug */,
+				E5BF98042DCE5B0E00AAC54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BF98052DCE5B0E00AAC54C /* Build configuration list for PBXNativeTarget "Tinh Lai Cam DoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BF98062DCE5B0E00AAC54C /* Debug */,
+				E5BF98072DCE5B0E00AAC54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5BF97CE2DCE5B0B00AAC54C /* Project object */;
+}
