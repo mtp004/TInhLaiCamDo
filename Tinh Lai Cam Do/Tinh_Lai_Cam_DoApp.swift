@@ -13,7 +13,7 @@ struct Tinh_Lai_Cam_DoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			InterestInputView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
