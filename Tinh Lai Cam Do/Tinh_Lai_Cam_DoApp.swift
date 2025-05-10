@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct Tinh_Lai_Cam_DoApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
 			InterestInputView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
