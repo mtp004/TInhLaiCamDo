@@ -33,16 +33,11 @@ struct InterestInputView: View {
 			return 0
 		}
 
-		let monthlyRate: Double
-		if isMonthly {
-			monthlyRate = rate / 100
-		} else {
-			monthlyRate = (pow(1 + (rate / 100), 1 / 12.0) - 1)
-		}
+		let monthlyRate = isMonthly ? (rate / 100) : (pow(1 + (rate / 100), 1 / 12.0) - 1)
 
 		let total = principalValue * pow(1 + monthlyRate, count)
 		var payment = total - principalValue
-		payment = round(payment / 100) * 100
+		payment = round(payment / 1000) * 1000
 
 		return Int(payment)
 	}
