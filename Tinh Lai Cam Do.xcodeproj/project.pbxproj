@@ -399,7 +399,7 @@
 				DEVELOPMENT_TEAM = 5FSYX2QT8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Tinh ";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tinh Lai Cam Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,7 +429,7 @@
 				DEVELOPMENT_TEAM = 5FSYX2QT8A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Tinh ";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tinh Lai Cam Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
