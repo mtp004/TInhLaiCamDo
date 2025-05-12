@@ -12,12 +12,15 @@ struct InterestInputView: View {
 	private enum Field: Hashable {
 		case principal, rate, intervalCount
 	}
+	
+	private func parseLocalizedNumber(_ input: String) -> Double? {
+		return InterestInputView.numberFormatter.number(from: input)?.doubleValue
+	}
 
 	private static let numberFormatter: NumberFormatter = {
 		let formatter = NumberFormatter()
 		formatter.numberStyle = .decimal
-		formatter.groupingSeparator = ","
-		formatter.locale = Locale(identifier: "vi_VN")
+		formatter.locale = Locale.current
 		return formatter
 	}()
 
@@ -26,10 +29,9 @@ struct InterestInputView: View {
 	}
 
 	private var accumulate: Int {
-		let cleanedPrincipal = principal.replacingOccurrences(of: ",", with: "")
-		guard let principalValue = Double(cleanedPrincipal),
-			  let rate = Double(interestRate),
-			  let count = Double(intervalCount) else {
+		guard let principalValue = parseLocalizedNumber(principal),
+			  let rate = parseLocalizedNumber(interestRate),
+			  let count = parseLocalizedNumber(intervalCount) else {
 			return 0
 		}
 
